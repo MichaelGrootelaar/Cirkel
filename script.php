@@ -7,7 +7,7 @@
   * @return integer
   */
   function omtrekUitrekenen($getal){
-    return 2 * 3.141592653589793238462643383279 * $getal;
+    return 2 * pi() * $getal;
   }
 
   $_SESSION['uitkomst'] = omtrekUitrekenen($_POST['getal']);
